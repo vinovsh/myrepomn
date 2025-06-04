@@ -109,37 +109,146 @@
 
   <script>
     const stars = [
-  { "Star_ID": 1, "Star_Name": "Christian Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 2, "Star_Name": "Christian Orthodox", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 3, "Star_Name": "Christian Protestant", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 4, "Star_Name": "Christian Others", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 5, "Star_Name": "Christian Pentecost", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 6, "Star_Name": "CSI", "Star_Tamil": "அசுவினி" },
-  { "Star_ID": 7, "Star_Name": "Roman Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 8, "Star_Name": "TELC", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 9, "Star_Name": "Christian - Born Again", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 10, "Star_Name": "Christian - Bretheren", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 11, "Star_Name": "Christian - Church of South India", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 12, "Star_Name": "Christian - Evangelist", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 13, "Star_Name": "Christian - Jacobite", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 14, "Star_Name": "Christian - Knanaya", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 15, "Star_Name": "Christian - Knanaya Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 16, "Star_Name": "Christian - Knanaya Jacobit", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 17, "Star_Name": "Christian - Lain Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 18, "Star_Name": "Christian - Malankara", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 19, "Star_Name": "Christian - Marthoma", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 20, "Star_Name": "Christian - Pentacost", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 21, "Star_Name": "Christian - Roman Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 22, "Star_Name": "Christian - Syrian Catholic", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 23, "Star_Name": "Christian - Syrian Jacobite", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 24, "Star_Name": "Christian - Syrian Orthodox", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 25, "Star_Name": "Christian - Syro Malabar", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 26, "Star_Name": "Christian - Unspecified", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 27, "Star_Name": "Christian - Don't wish to specify", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 28, "Star_Name": "Christian - Others", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 29, "Star_Name": "Christian - Only Jesus", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 30, "Star_Name": "Christian - Church of North India", "Star_Tamil": "இல்லை" },
-  { "Star_ID": 31, "Star_Name": "Select Religion", "Star_Tamil": "இல்லை" }
+    {
+        "Star_ID": 1,
+        "Star_Name": "Aswini",
+        "Star_Tamil": "அசுவினி"
+    },
+    {
+        "Star_ID": 2,
+        "Star_Name": "Bharani",
+        "Star_Tamil": "பரணி"
+    },
+    {
+        "Star_ID": 3,
+        "Star_Name": "Karthigai",
+        "Star_Tamil": "கிருத்திகை"
+    },
+    {
+        "Star_ID": 4,
+        "Star_Name": "Rohini",
+        "Star_Tamil": "ரோகிணி"
+    },
+    {
+        "Star_ID": 5,
+        "Star_Name": "Mrigasheersham",
+        "Star_Tamil": "மிருகசிரீஷம்"
+    },
+    {
+        "Star_ID": 6,
+        "Star_Name": "Thiruvaathirai",
+        "Star_Tamil": "திருவாதிரை"
+    },
+    {
+        "Star_ID": 7,
+        "Star_Name": "Punarpoosam",
+        "Star_Tamil": "புனர்பூசம்"
+    },
+    {
+        "Star_ID": 8,
+        "Star_Name": "Poosam",
+        "Star_Tamil": "பூசம்"
+    },
+    {
+        "Star_ID": 9,
+        "Star_Name": "Aayilyam",
+        "Star_Tamil": "ஆயில்யம்"
+    },
+    {
+        "Star_ID": 10,
+        "Star_Name": "Makam",
+        "Star_Tamil": "மகம்"
+    },
+    {
+        "Star_ID": 11,
+        "Star_Name": "Pooram",
+        "Star_Tamil": "பூரம்"
+    },
+    {
+        "Star_ID": 12,
+        "Star_Name": "Uthiram",
+        "Star_Tamil": "உத்திரம்"
+    },
+    {
+        "Star_ID": 13,
+        "Star_Name": "Hastham",
+        "Star_Tamil": "ஹஸ்தம்"
+    },
+    {
+        "Star_ID": 14,
+        "Star_Name": "Chithirai",
+        "Star_Tamil": "சித்திரை"
+    },
+    {
+        "Star_ID": 15,
+        "Star_Name": "Swaathi",
+        "Star_Tamil": "சுவாதி"
+    },
+    {
+        "Star_ID": 16,
+        "Star_Name": "Visaakam",
+        "Star_Tamil": "விசாகம்"
+    },
+    {
+        "Star_ID": 17,
+        "Star_Name": "Anusham",
+        "Star_Tamil": "அனுஷம்"
+    },
+    {
+        "Star_ID": 18,
+        "Star_Name": "Kettai",
+        "Star_Tamil": "கேட்டை"
+    },
+    {
+        "Star_ID": 19,
+        "Star_Name": "Moolam",
+        "Star_Tamil": "மூலம்"
+    },
+    {
+        "Star_ID": 20,
+        "Star_Name": "Pooraadam",
+        "Star_Tamil": "பூராடம்"
+    },
+    {
+        "Star_ID": 21,
+        "Star_Name": "Uthiraadam",
+        "Star_Tamil": "உத்திராடம்"
+    },
+    {
+        "Star_ID": 22,
+        "Star_Name": "Thiruvonam",
+        "Star_Tamil": "திருவோணம்"
+    },
+    {
+        "Star_ID": 23,
+        "Star_Name": "Avittam",
+        "Star_Tamil": "அவிட்டம்"
+    },
+    {
+        "Star_ID": 24,
+        "Star_Name": "Chathayam/Sadayam",
+        "Star_Tamil": "சதயம்"
+    },
+    {
+        "Star_ID": 25,
+        "Star_Name": "Poorattathi",
+        "Star_Tamil": "பூரட்டாதி"
+    },
+    {
+        "Star_ID": 26,
+        "Star_Name": "Uthirattathi",
+        "Star_Tamil": "உத்திரட்டாதி"
+    },
+    {
+        "Star_ID": 27,
+        "Star_Name": "Revathi",
+        "Star_Tamil": "ரேவதி"
+    },
+    {
+        "Star_ID": 28,
+        "Star_Name": "Not Available",
+        "Star_Tamil": "இல்லை"
+    }
 ]
 
 
@@ -148,7 +257,7 @@
 
     stars.forEach(star => {
       const option = document.createElement('option');
-      option.value = star.Star_Name;
+      option.value = star.Star_ID;
       option.textContent = `${star.Star_Name} (${star.Star_Tamil})`;
       starSelect.appendChild(option);
     });
@@ -163,7 +272,7 @@
         obj: `{'Gender':'Female', 'From':'${from}', 'To':'${to}', 'Star':'${star}'}`
       };
 
-      const res = await fetch('https://nadarmatrimony.co.in/https://jesusmatrimony.com/Home/FindPartner', {
+      const res = await fetch('https://cors-anywhere.herokuapp.com/https://nadarmatrimony.co.in/Home/FindPartner', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
